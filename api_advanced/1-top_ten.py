@@ -22,6 +22,3 @@ def top_ten(subreddit):
 
     for post in posts:
         print(post['data']['title'])
-
-# Example usage
-# top_ten('python')
